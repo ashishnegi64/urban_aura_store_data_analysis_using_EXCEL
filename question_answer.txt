@@ -1,0 +1,23 @@
+QUESTIONS
+
+1. Compare sales and order on monthly basis using single line chart.
+2. Which month has the highest sales and order?
+3. Who purchaed more items: Men or Women?
+4. What are the different order status in 2022?
+5. Which are the top 5 states contributing to sales and which is the highest state sales?
+6. Determine relation between age and gender based on number of orders.
+7. Which channel contributes maximum sales?
+8. Which cloth category has highest sales?
+
+
+
+ANSWERS
+
+1. 1st chart shows sales and order on monthly basis
+2. From chart 1: March has highest sales and orders
+3. From chart 2: Women purchaed more items.
+4. From chart 3: We can see different order status.
+5. From chart 4(horizontal bar): we can see top 5 states sales with Maharashtra as highest sales.
+6. From chart 5: we determined age and gender based on order placed that is order_id.
+7. from chart 6: Amazon has max. sales of 7.5 million.
+8. From chart 7: Set has highest sales of 10507K

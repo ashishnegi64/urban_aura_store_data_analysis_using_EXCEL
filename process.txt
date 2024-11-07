@@ -1,0 +1,28 @@
+Detailed process explanation:
+ 
+1. Duplicate Urban_Aura_Store sheet and rename that sheet into clean_processed_data.
+
+DATA CLEANING (highlighted as green)
+1. Check each coloumn for any duplicates and change any columns as per the desired questions. For that we can use filter
+by pressing Ctrl+Shift+L. From Home tab go to Cells group>Format>Auto Fit column width to automatically correct column width.
+2. In Gender column we can see M, Men, W, Women. We need to use data cleaning to clean this data and combine M,Men into 
+Men and W, Women into Women. Select M then use Ctrl+H to find M and replace with Men, same goes for Women as well.
+Finally check column gender to see if only 2 options present: Men and Women.
+3. In Qty column replace One with 1, Two with 2. In excel 365 online, to unhide all rows use: Ctrl+Shift+9.
+
+DATA PROCESSING (highlighted as yellow)
+1. Put your cursor on any of the cell next to Age column and press Ctrl+Shift+'+' to open insert dialog box.
+Select Entire column and new column will be added. Add heading as age_group to this column. 
+2. To this age_group apply this formula: =IF(E2>=50,"Seniors",IF(E2>=30,"Adults","Teenagers")) and select 
+this coloumn and copy it and with shortcut:Ctrl+shift+v use paste as value so that raw data remains.
+3. Insert a new column next to date, add heading as month, use formula: =TEXT(G2,"mmm"). Copy this column and paste as
+value on the this column:month.
+
+DATA ANALYSIS
+1. From Insert Tab click on PivotTable, and name this as sales_order. Select amount in values(sum of amount), order_id in
+values(count of order_id), month in rows/axis field(categories). Go to Design>Grandtotals>Off for rows and columns to remove
+automatic grand total that has been added. Now select all data and go to Options tab>Tools Group>PivotChart>Combos>
+Clustered column chart to add this new chart. add custom for million: 0.0,,"M"
+2. From Insert tab again create a pivot table and name this as men_women_sales. Create a pie chart with same process.
+3. From Insert tab again create a pivot table and name this as order_status. 
+4. Same add sheet names top_5_states, age_gender_sales, channel_sales, category_sales. 

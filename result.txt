@@ -1,0 +1,18 @@
+OBJECTIVE
+
+Create an annual sales report for 2022 so that we can understand customer needs by giving insights and share next step
+you will take to grow more sales in 2023.
+
+
+RESULT
+Created annual sales report with sheet name as final_dashboard.
+
+1.INSIGHTS
+==>>  Women are more likely to purchase items compared to men (64%).
+==>>  Maharashtra, Karnataka, UP are top 3 selling states.
+==>>  Adult age group(30-49 yrs.) is max. contributitin (~50%).
+==>>  Amazon, Myntra, Flipkart are top 3 contributing channels.
+
+2. NEXT STEP(to grow more sales in 2023)
+Target women of age group(30-49 yrs.) living in Maharashtra, Karnataka, Uttar Pradesh by showing advertisements that
+promote more discounted offers and coupons available on Amazon, Myntra, Flipkart.
